@@ -48,9 +48,12 @@ Validation:
 // ********RoostGPT********
 
 package org.agoncal.application.petstore.model;
+import org.agoncal.application.petstore.model.Customer;
+import org.agoncal.application.petstore.model.UserRole;
+import org.agoncal.application.petstore.model.Address;
+import org.agoncal.application.petstore.model.Country;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.agoncal.application.petstore.constraints.Categories;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import org.agoncal.application.petstore.constraints.Email;
@@ -71,12 +74,12 @@ public class CustomerGetRoleTest {
     public void testGetRoleReturnsCorrectRole() {
         // Arrange
         Customer customer = new Customer();
-        UserRole userRole = UserRole.ADMIN;
-        customer.setRole(userRole);
+        UserRole role = UserRole.ADMINISTRATOR;
+        customer.setRole(role);
         // Act
-        UserRole returnedUserRole = customer.getRole();
+        UserRole result = customer.getRole();
         // Assert
-        assertEquals(userRole, returnedUserRole);
+        assertEquals("The role should be the same as the one set", role, result);
     }
     @Test
     @Category(Categories.valid.class)
@@ -84,22 +87,22 @@ public class CustomerGetRoleTest {
         // Arrange
         Customer customer = new Customer();
         // Act
-        UserRole returnedUserRole = customer.getRole();
+        UserRole result = customer.getRole();
         // Assert
-        assertNull(returnedUserRole);
+        assertNull("The role should be null as no role was set", result);
     }
     @Test
     @Category(Categories.valid.class)
     public void testGetRoleReturnsLatestSetRole() {
         // Arrange
         Customer customer = new Customer();
-        UserRole userRole1 = UserRole.ADMIN;
-        UserRole userRole2 = UserRole.CUSTOMER;
-        customer.setRole(userRole1);
-        customer.setRole(userRole2);
+        UserRole role1 = UserRole.ADMINISTRATOR;
+        UserRole role2 = UserRole.CUSTOMER;
+        customer.setRole(role1);
+        customer.setRole(role2);
         // Act
-        UserRole returnedUserRole = customer.getRole();
+        UserRole result = customer.getRole();
         // Assert
-        assertEquals(userRole2, returnedUserRole);
+        assertEquals("The role should be the same as the latest one set", role2, result);
     }
 }

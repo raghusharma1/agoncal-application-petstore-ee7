@@ -158,4 +158,128 @@ public interface Categories {
 
 	}
 
+	interface getState {
+
+	}
+
+	interface toString {
+
+	}
+
+	interface getCreditCardType {
+
+	}
+
+	interface equals {
+
+	}
+
+	interface getLogin {
+
+	}
+
+	interface getRole {
+
+	}
+
+	interface getTelephone {
+
+	}
+
+	interface getName {
+
+	}
+
+	interface getDescription {
+
+	}
+
+	interface getImagePath {
+
+	}
+
+	interface getUnitCost {
+
+	}
+
+	interface getProduct {
+
+	}
+
+	interface hashCode {
+
+	}
+
+	interface getSubTotal {
+
+	}
+
+	interface getId {
+
+	}
+
+	interface getVersion {
+
+	}
+
+	interface getQuantity {
+
+	}
+
+	interface getItem {
+
+	}
+
+	interface getCategory {
+
+	}
+
+	interface getOrderDate {
+
+	}
+
+	interface getTotalWithoutVat {
+
+	}
+
+	interface getVatRate {
+
+	}
+
+	interface getVat {
+
+	}
+
+	interface getTotalWithVat {
+
+	}
+
+	interface getDiscountRate {
+
+	}
+
+	interface getDiscount {
+
+	}
+
+	interface getTotal {
+
+	}
+
+	interface getCustomer {
+
+	}
+
+	interface getOrderLines {
+
+	}
+
+	interface getDeliveryAddress {
+
+	}
+
+	interface getCreditCard {
+
+	}
+
 }

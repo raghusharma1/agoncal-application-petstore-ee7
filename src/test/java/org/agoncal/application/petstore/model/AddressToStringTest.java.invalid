@@ -51,6 +51,8 @@ Validation:
 package org.agoncal.application.petstore.model;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.agoncal.application.petstore.model.Address;
+import org.agoncal.application.petstore.model.Country;
 import static org.junit.Assert.assertEquals;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -65,19 +67,14 @@ public class AddressToStringTest {
     @Test
     @Category(Categories.valid.class)
     public void testToStringOnValidAddressObject() {
-        // Arrange
-        Country country = new Country("US", "United States", "USA", "USA", "1");
-        Address address = new Address("123 Street", "456 Avenue", "City", "State", "12345", country);
-        // Act
-        String actualString = address.toString();
-        // Assert
-        String expectedString = "Address{street1='123 Street', street2='456 Avenue', city='City', state='State', zipcode='12345', country=United States}";
-        assertEquals(expectedString, actualString);
+        Country country = new Country("US", "United States", "United States", "USA", "100");
+        Address address = new Address("123 Main St", "Apt 4B", "New York", "NY", "10001", country);
+        String expected = "Address{" + "street1='123 Main St'" + ", street2='Apt 4B'" + ", city='New York'" + ", state='NY'" + ", zipcode='10001'" + ", country=United States" + '}';
+        assertEquals(expected, address.toString());
     }
     @Test
-    @Category(Categories.invalid.class)
+    @Category(Categories.valid.class)
     public void testToStringOnAddressWithNullFields() {
-        // Arrange
         Address address = new Address();
         address.setStreet1(null);
         address.setStreet2(null);
@@ -85,27 +82,14 @@ public class AddressToStringTest {
         address.setState(null);
         address.setZipcode(null);
         address.setCountry(null);
-        // Act
-        String actualString = address.toString();
-        // Assert
-        String expectedString = "Address{street1='null', street2='null', city='null', state='null', zipcode='null', country=null}";
-        assertEquals(expectedString, actualString);
+        String expected = "Address{" + "street1='null'" + ", street2='null'" + ", city='null'" + ", state='null'" + ", zipcode='null'" + ", country=null" + '}';
+        assertEquals(expected, address.toString());
     }
     @Test
-    @Category(Categories.boundary.class)
+    @Category(Categories.valid.class)
     public void testToStringOnAddressWithEmptyFields() {
-        // Arrange
-        Address address = new Address();
-        address.setStreet1("");
-        address.setStreet2("");
-        address.setCity("");
-        address.setState("");
-        address.setZipcode("");
-        address.setCountry(null);
-        // Act
-        String actualString = address.toString();
-        // Assert
-        String expectedString = "Address{street1='', street2='', city='', state='', zipcode='', country=null}";
-        assertEquals(expectedString, actualString);
+        Address address = new Address("", "", "", "", "", null);
+        String expected = "Address{" + "street1=''" + ", street2=''" + ", city=''" + ", state=''" + ", zipcode=''" + ", country=null" + '}';
+        assertEquals(expected, address.toString());
     }
 }

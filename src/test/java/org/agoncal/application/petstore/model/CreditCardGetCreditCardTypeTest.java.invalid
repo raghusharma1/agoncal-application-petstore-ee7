@@ -66,13 +66,12 @@ public class CreditCardGetCreditCardTypeTest {
     public void testGetCreditCardType() {
         // Arrange
         CreditCard creditCard = new CreditCard();
-        CreditCardType knownCreditCardType = CreditCardType.VISA;
+        CreditCardType knownCreditCardType = CreditCardType.MASTERCARD;
         creditCard.setCreditCardType(knownCreditCardType);
         // Act
         CreditCardType returnedCreditCardType = creditCard.getCreditCardType();
         // Assert
-        assertEquals("Test failed! The returned Credit Card Type does not match the known Credit Card Type.",
-                knownCreditCardType, returnedCreditCardType);
+        assertEquals(knownCreditCardType, returnedCreditCardType);
     }
     @Test
     @Category(Categories.valid.class)
@@ -82,21 +81,20 @@ public class CreditCardGetCreditCardTypeTest {
         // Act
         CreditCardType returnedCreditCardType = creditCard.getCreditCardType();
         // Assert
-        assertNull("Test failed! The returned Credit Card Type is not null as expected.", returnedCreditCardType);
+        assertNull(returnedCreditCardType);
     }
     @Test
     @Category(Categories.valid.class)
     public void testGetCreditCardTypeAfterChange() {
         // Arrange
         CreditCard creditCard = new CreditCard();
-        CreditCardType initialCreditCardType = CreditCardType.VISA;
+        CreditCardType initialCreditCardType = CreditCardType.MASTERCARD;
         creditCard.setCreditCardType(initialCreditCardType);
-        CreditCardType newCreditCardType = CreditCardType.MASTERCARD;
+        CreditCardType newCreditCardType = CreditCardType.VISA;
         creditCard.setCreditCardType(newCreditCardType);
         // Act
         CreditCardType returnedCreditCardType = creditCard.getCreditCardType();
         // Assert
-        assertEquals("Test failed! The returned Credit Card Type does not match the new Credit Card Type.",
-                newCreditCardType, returnedCreditCardType);
+        assertEquals(newCreditCardType, returnedCreditCardType);
     }
 }

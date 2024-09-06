@@ -84,8 +84,7 @@ Validation:
 package org.agoncal.application.petstore.model;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 import java.io.Serializable;
 import java.util.Objects;
 import javax.persistence.Column;
