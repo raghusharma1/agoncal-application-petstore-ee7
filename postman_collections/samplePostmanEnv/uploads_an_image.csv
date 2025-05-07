@@ -1,0 +1,11 @@
+petId,additionalMetadata,statusCode,scenario
+API1,"{\n  \"code\": -40455301,\n  \"type\": \"esse sed dolor\",\n  \"message\": \"anim dolore fugiat\"\n}",200,successful operation
+API2,"{\n  \"code\": -40455302,\n  \"type\": \"est tempore fugiat\",\n  \"message\": \"animi rem consectetur\"\n}",210,successful operation
+API3,"{\n  \"code\": -40455303,\n  \"type\": \"aut eiusmod labore\",\n  \"message\": \"amet sint occaecat\"\n}",220,successful operation
+API4,"{\n  \"code\": -40455304,\n  \"type\": \"magna duis excepteur\",\n  \"message\": \"adipisicing exercitation nulla\"\n}",230,successful operation
+API5,"{\n  \"code\": -40455305,\n  \"type\": \"nisi voluptate aliqua\",\n  \"message\": \"adipisicing aliquip aute\"\n}",240,successful operation
+API6,"{\n  \"code\": -40455306,\n  \"type\": \"officia est deserunt\",\n  \"message\": \"aliquip aute reprehenderit\"\n}",250,successful operation
+API7,"{\n  \"code\": -40455307,\n  \"type\": \"proident laborum officia\",\n  \"message\": \"amet sint ut\"\n}",260,successful operation
+API8,"{\n  \"code\": -40455308,\n  \"type\": \"excepteur cillum aliqua\",\n  \"message\": \"aliqua cupidatat eu\"\n}",270,successful operation
+API9,"{\n  \"code\": -40455309,\n  \"type\": \"consectetur laboris labore\",\n  \"message\": \"adipisicing eiusmod quis\"\n}",280,successful operation
+API10,"{\n  \"code\": -40455310,\n  \"type\": \"do sunt aliqua\",\n  \"message\": \"anim adipisicing anim\"\n}",290,successful operation
