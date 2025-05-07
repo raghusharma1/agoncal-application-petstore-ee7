@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+1234,"{\n \"code\": 85097926,\n \"type\": \"nostrud et anim\",\n \"message\": \"et est\"\n}",200,"successful operation"
+5678,"{\n \"code\": 98763542,\n \"type\": \"in anim\",\n \"message\": \"et dolor\"\n}",200,"successful operation"
+9123,"{\n \"code\": 67520983,\n \"type\": \"anim elit\",\n \"message\": \"cillum qui\"\n}",200,"successful operation"
+3456,"{\n \"code\": 23948392,\n \"type\": \"aliquip laborum\",\n \"message\": \"ullamco deserunt\"\n}",200,"successful operation"
+7890,"{\n \"code\": 53672982,\n \"type\": \"exercitation commodo\",\n \"message\": \"exercitation cillum\"\n}",200,"successful operation"
