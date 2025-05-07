@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+1234,"{\"code\": 73788290,\"type\": \"Excepteur fugiat incididunt\",\"message\": \"consectetur laborum ipsum nulla\"}",200,successful operation
+5678,"{\"code\": 73788290,\"type\": \"Excepteur fugiat incididunt\",\"message\": \"consectetur laborum ipsum nulla\"}",200,successful operation
+9012,"{\"code\": 73788290,\"type\": \"Excepteur fugiat incididunt\",\"message\": \"consectetur laborum ipsum nulla\"}",200,successful operation
+3456,"{\"code\": 73788290,\"type\": \"Excepteur fugiat incididunt\",\"message\": \"consectetur laborum ipsum nulla\"}",200,successful operation
+7890,"{\"code\": 73788290,\"type\": \"Excepteur fugiat incididunt\",\"message\": \"consectetur laborum ipsum nulla\"}",200,successful operation
