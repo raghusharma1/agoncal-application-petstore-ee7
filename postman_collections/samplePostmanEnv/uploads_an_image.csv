@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+1234,"{\n  \"code\": -67622375,\n  \"type\": \"adipisicing s\",\n  \"message\": \"pariatur\"\n}",200,"successful operation"
+5678,"{\n  \"code\": -29898726,\n  \"type\": \"tempor s\",\n  \"message\": \"exercitation\"\n}",200,"successful operation"
+2234,"{\n  \"code\": -98827646,\n  \"type\": \"quis nostrud\",\n  \"message\": \"adipisicing\"\n}",200,"successful operation"
+7896,"{\n  \"code\": -26747382,\n  \"type\": \"commodo consequat\",\n  \"message\": \"consequat\"\n}",200,"successful operation"
+4356,"{\n  \"code\": -38756473,\n  \"type\": \"cillum\",\n  \"message\": \"fugiat\"\n}",200,"successful operation"
