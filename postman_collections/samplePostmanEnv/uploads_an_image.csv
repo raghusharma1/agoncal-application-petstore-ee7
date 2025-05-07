@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+1234,"{\n \"code\": 83537717,\n \"type\": \"tempor culpa\",\n \"message\": \"dolore adipisicing\"\n}",200,successful operation
+5678,"{\n \"code\": 91020381,\n \"type\": \"lacus aliquip\",\n \"message\": \"elit exercitationem\"\n}",200,successful operation
+9101,"{\n \"code\": 29542152,\n \"type\": \"ullamco eiusmod\",\n \"message\": \"minim nisi\"\n}",200,successful operation
+1213,"{\n \"code\": 63583312,\n \"type\": \"nostrud consequat\",\n \"message\": \"incididunt quis\"\n}",200,successful operation
+1415,"{\n \"code\": 28795549,\n \"type\": \"reprehenderit anim\",\n \"message\": \"consequat enim\"\n}",200,successful operation
