@@ -1,0 +1,8 @@
+petId,additionalMetadata,statusCode,scenario
+564,"{\n  \"code\": -54784121,\n  \"type\": \"dolor do eiusmod\",\n  \"message\": \"quis nostrud exercitation ullamco\"\n}",200,successful operation
+283,"{\n  \"code\": -34218537,\n  \"type\": \"enim ad minim veniam\",\n  \"message\": \"deserunt mollit anim id est\"\n}",200,successful operation
+109,"{\n  \"code\": -49717913,\n  \"type\": \"laboris nisi ut aliquip\",\n  \"message\": \"consequat duis aute irure dolor\"\n}",200,successful operation
+777,"{\n  \"code\": -36609837,\n  \"type\": \"ex ea commodo consequat\",\n  \"message\": \"ut labore et dolore magna aliqua\"\n}",200,successful operation
+381,"{\n  \"code\": -84077416,\n  \"type\": \"ipsum dolor sit amet\",\n  \"message\": \"adipisicing elit sed do eiusmod\"\n}",200,successful operation
+495,"{\n  \"code\": -29385678,\n  \"type\": \"ullamco laboris nisi ut aliquip\",\n  \"message\": \"reprehenderit in voluptate\"\n}",200,successful operation
+888,"{\n  \"code\": -99284712,\n  \"type\": \"comma sunt reprehenderit\",\n  \"message\": \"non proident sunt in culpa\"\n}",200,successful operation
