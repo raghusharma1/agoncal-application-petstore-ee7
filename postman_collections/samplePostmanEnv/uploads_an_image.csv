@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+1,"{\"code\": 36021398, \"type\": \"proident aliquip adipisicing tempor\", \"message\": \"enim non qui\"}",200,successful operation
+2,"{\"code\": 89723409, \"type\": \"tempor incididunt laborum\", \"message\": \"ipsum eiusmod\"}",200,successful operation
+3,"{\"code\": 50234234, \"type\": \"velit cillum ullamco\", \"message\": \"nisi irure velit\"}",200,successful operation
+4,"{\"code\": 78452346, \"type\": \"nisi quis aliqua\", \"message\": \"consectetur cillum\"}",200,successful operation
+5,"{\"code\": 45766362, \"type\": \"mollit cillum\", \"message\": \"dolore pariatur\"}",200,successful operation
