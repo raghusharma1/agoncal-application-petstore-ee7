@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+123,"{\n  \"code\": 77084054,\n  \"type\": \"adipisicing\",\n  \"message\": \"elit aliqua sunt eiusmod aute\"\n}",200,successful operation
+456,"{\n  \"code\": 18628490,\n  \"type\": \"adipisicing\",\n  \"message\": \"elit aliqua sunt eiusmod aute\"\n}",200,successful operation
+789,"{\n  \"code\": 39284209,\n  \"type\": \"adipisicing\",\n  \"message\": \"elit aliqua sunt eiusmod aute\"\n}",200,successful operation
+159,"{\n  \"code\": 28494029,\n  \"type\": \"adipisicing\",\n  \"message\": \"elit aliqua sunt eiusmod aute\"\n}",200,successful operation
+753,"{\n  \"code\": 84029348,\n  \"type\": \"adipisicing\",\n  \"message\": \"elit aliqua sunt eiusmod aute\"\n}",200,successful operation
