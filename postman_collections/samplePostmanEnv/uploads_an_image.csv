@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+dog123,-40315210, "culpa ad dolore", "ullamco eu dolor ea",200,"successful operation"
+cat789,-40315210, "culpa ad dolore", "ullamco eu dolor ea",200,"successful operation"
+bird456,-40315210, "culpa ad dolore", "ullamco eu dolor ea",200,"successful operation"
+fish321,-40315210, "culpa ad dolore", "ullamco eu dolor ea",200,"successful operation"
+hamster987,-40315210, "culpa ad dolore", "ullamco eu dolor ea",200,"successful operation"

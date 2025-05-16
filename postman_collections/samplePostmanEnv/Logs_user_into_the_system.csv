@@ -1,0 +1,7 @@
+username,password,statusCode,scenario
+testuser1,pass123,200,"successful operation"
+admin_user,admin123,200,"successful operation"
+user_demo,demo123,200,"successful operation"
+wrong_user,user789,400,"Invalid username/password supplied"
+demo_fail,demo456,400,"Invalid username/password supplied"
+test_fail,test999,400,"Invalid username/password supplied"
