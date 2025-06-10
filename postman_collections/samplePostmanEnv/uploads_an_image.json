@@ -1,0 +1,32 @@
+[
+  {
+    "petId": 123456,
+    "additionalMetadata": "Vaccination records available",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "petId": 987654,
+    "additionalMetadata": "Medical history reviewed",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "petId": "invalid_pet_id",
+    "additionalMetadata": "",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "petId": -1,
+    "additionalMetadata": "Contains invalid characters",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "petId": 0,
+    "additionalMetadata": "Metadata exceeds character limit",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]

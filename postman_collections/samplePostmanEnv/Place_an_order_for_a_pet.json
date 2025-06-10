@@ -1,0 +1,52 @@
+[
+  {
+    "id": 12345678901234,
+    "petId": 98765432109876,
+    "quantity": 5,
+    "shipDate": "2023-10-19T10:45:00Z",
+    "status": "available",
+    "complete": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": 22334455667788,
+    "petId": 11223344556677,
+    "quantity": 3,
+    "shipDate": "2023-11-01T09:30:00Z",
+    "status": "pending",
+    "complete": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": 44556677889922,
+    "petId": 99887766554433,
+    "quantity": 10,
+    "shipDate": "2023-12-15T14:20:00Z",
+    "status": "sold",
+    "complete": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": "invalid_id",
+    "petId": -12345,
+    "quantity": "five",
+    "shipDate": "2023/99/99T99:99:99Z",
+    "status": "unknown",
+    "complete": "no",
+    "statusCode": 400,
+    "scenario": "Invalid Order"
+  },
+  {
+    "id": 0,
+    "petId": 0,
+    "quantity": -1,
+    "shipDate": "invalid_date",
+    "status": "",
+    "complete": null,
+    "statusCode": 400,
+    "scenario": "Invalid Order"
+  }
+]
