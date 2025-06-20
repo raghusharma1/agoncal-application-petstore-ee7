@@ -1,0 +1,45 @@
+[
+  {
+    "tags": [
+      "Technology",
+      "Science",
+      "Innovation"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "InvalidTag###",
+      "Another_invalid_tag!"
+    ],
+    "statusCode": 400,
+    "scenario": "Invalid tag value"
+  },
+  {
+    "tags": [
+      "Health",
+      "Wellness",
+      "Nutrition"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "Tag$@123",
+      "%%BrokenTag"
+    ],
+    "statusCode": 400,
+    "scenario": "Invalid tag value"
+  },
+  {
+    "tags": [
+      "Education",
+      "E-Learning",
+      "Knowledge"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

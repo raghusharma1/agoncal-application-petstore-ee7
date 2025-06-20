@@ -1,0 +1,62 @@
+[
+  {
+    "id": 123456789,
+    "username": "jdoe123",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "password": "Password123!",
+    "phone": "123-456-7890",
+    "userStatus": 1,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id": 987654321,
+    "username": "asmith456",
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alicesmith@example.com",
+    "password": "SecurePass456!",
+    "phone": "987-654-3210",
+    "userStatus": 2,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id": 112233445,
+    "username": "bjones789",
+    "firstName": "Bob",
+    "lastName": "Jones",
+    "email": "bobjones@example.com",
+    "password": "BobSecure789!",
+    "phone": "111-222-3333",
+    "userStatus": 3,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id": 0,
+    "username": "invalid_user@",
+    "firstName": "Invalid",
+    "lastName": "User1234",
+    "email": "not-an-email",
+    "password": "",
+    "phone": "abc123",
+    "userStatus": -1,
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "id": -999999999,
+    "username": "<script>alert('test')</script>",
+    "firstName": "Test<script>",
+    "lastName": "Invalid#Name",
+    "email": "invalid_email.com",
+    "password": "short",
+    "phone": "!!!CA@!!@1234",
+    "userStatus": 9999999,
+    "statusCode": 422,
+    "scenario": "Unprocessable Entity"
+  }
+]
