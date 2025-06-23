@@ -1,0 +1,37 @@
+[
+  {
+    "petId": 1001,
+    "name": "Max",
+    "status": "available",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": 2005,
+    "name": "Bella",
+    "status": "pending",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": 3050,
+    "name": "Charlie",
+    "status": "sold",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": 4031,
+    "name": "Lucy",
+    "status": "available_test",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": "invalidPetId",
+    "name": 12345,
+    "status": "randomStatus",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  }
+]
