@@ -1,0 +1,62 @@
+[
+  {
+    "username": "john_doe",
+    "id": 1234567890123,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "password": "Pass@123",
+    "phone": "+1234567890",
+    "userStatus": 1,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "username": "invalid_user#",
+    "id": -999999999,
+    "firstName": "123",
+    "lastName": "",
+    "email": "invalid-email",
+    "password": "short",
+    "phone": "abcdefg",
+    "userStatus": -1,
+    "statusCode": 400,
+    "scenario": "Invalid user supplied"
+  },
+  {
+    "username": "not_found_user",
+    "id": 987654321,
+    "firstName": "Missing",
+    "lastName": "User",
+    "email": "missing.user@example.com",
+    "password": "SecurePass123!",
+    "phone": "+19876543210",
+    "userStatus": 0,
+    "statusCode": 404,
+    "scenario": "User not found"
+  },
+  {
+    "username": "test_user_3",
+    "id": -12345,
+    "firstName": "Test",
+    "lastName": "Three",
+    "email": "invalid.email@",
+    "password": "",
+    "phone": "0000000000",
+    "userStatus": -99,
+    "statusCode": 400,
+    "scenario": "Invalid user supplied"
+  },
+  {
+    "username": "random_guy",
+    "id": 55555555555,
+    "firstName": "Random",
+    "lastName": "Guy",
+    "email": "random.guy@example.com",
+    "password": "RandomPass555",
+    "phone": "+15555555555",
+    "userStatus": 5,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]
