@@ -1,0 +1,37 @@
+[
+  {
+    "petId": "12345",
+    "name": "doggie",
+    "status": "available",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": "67890",
+    "name": "puppy",
+    "status": "pending",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": "54321",
+    "name": "kitten",
+    "status": "sold",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": "98765",
+    "name": "bunny",
+    "status": "available",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "petId": "11223",
+    "name": "hamster",
+    "status": "sold",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  }
+]
