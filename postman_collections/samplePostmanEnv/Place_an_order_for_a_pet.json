@@ -1,0 +1,52 @@
+[
+  {
+    "id_*long": 123456789123,
+    "petId_*long": 987654321987,
+    "quantity_*integer": 3,
+    "shipDate_*dateTime": "2023-10-01T12:45:30Z",
+    "status_*string": "available",
+    "complete_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id_*long": 234567890234,
+    "petId_*long": 876543219876,
+    "quantity_*integer": 5,
+    "shipDate_*dateTime": "2023-10-05T14:30:00Z",
+    "status_*string": "pending",
+    "complete_*boolean": false,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id_*long": 345678901345,
+    "petId_*long": 765432109765,
+    "quantity_*integer": -1,
+    "shipDate_*dateTime": "invalid-date",
+    "status_*string": "invalid_status",
+    "complete_*boolean": "false",
+    "statusCode": 400,
+    "scenario": "Invalid Order"
+  },
+  {
+    "id_*long": -123456789,
+    "petId_*long": 123456,
+    "quantity_*integer": 0,
+    "shipDate_*dateTime": "2023-15-03T25:61:00Z",
+    "status_*string": "invalid",
+    "complete_*boolean": "true",
+    "statusCode": 400,
+    "scenario": "Invalid Order"
+  },
+  {
+    "id_*long": 456789012456,
+    "petId_*long": 654321098654,
+    "quantity_*integer": 10,
+    "shipDate_*dateTime": "2023-10-10T08:00:00Z",
+    "status_*string": "sold",
+    "complete_*boolean": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

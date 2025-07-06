@@ -1,0 +1,41 @@
+[
+  {
+    "tags": [
+      "pet",
+      "animal"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "invalid-tag"
+    ],
+    "statusCode": 400,
+    "scenario": "Invalid tag value"
+  },
+  {
+    "tags": [
+      "dog",
+      "canine"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "123",
+      "test-tag-!"
+    ],
+    "statusCode": 400,
+    "scenario": "Invalid tag value"
+  },
+  {
+    "tags": [
+      "cat",
+      "feline"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]
