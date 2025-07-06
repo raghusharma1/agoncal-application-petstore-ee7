@@ -1,0 +1,62 @@
+[
+  {
+    "id_long": 1234567890123,
+    "username_string": "john_doe",
+    "firstName_string": "John",
+    "lastName_string": "Doe",
+    "email_string": "john.doe@example.com",
+    "password_string": "Pass@1234",
+    "phone_string": "+1234567890",
+    "userStatus_integer": 1,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_long": -9876543210987,
+    "username_string": "invalid_user_123",
+    "firstName_string": "Invalid",
+    "lastName_string": "TestUser",
+    "email_string": "invalid-email",
+    "password_string": "123",
+    "phone_string": "not-a-phone",
+    "userStatus_integer": -99,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_long": 1122334455678,
+    "username_string": "jane_smith",
+    "firstName_string": "Jane",
+    "lastName_string": "Smith",
+    "email_string": "jane.smith@example.com",
+    "password_string": "SecurePass!2023",
+    "phone_string": "+19876543210",
+    "userStatus_integer": 0,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_long": 1020304050607,
+    "username_string": "user_test_account",
+    "firstName_string": "Test",
+    "lastName_string": "Account",
+    "email_string": "test.account@example.net",
+    "password_string": "TestAcc@001",
+    "phone_string": "+447987654321",
+    "userStatus_integer": 2,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_long": 9988776655443,
+    "username_string": "mark_taylor",
+    "firstName_string": "Mark",
+    "lastName_string": "Taylor",
+    "email_string": "mark.taylor@example.org",
+    "password_string": "MarkSecurePwd#9021",
+    "phone_string": "+16543210987",
+    "userStatus_integer": 1,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  }
+]

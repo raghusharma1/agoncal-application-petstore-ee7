@@ -1,0 +1,32 @@
+[
+  {
+    "username": "johndoe123",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "username": "invalid@@name",
+    "statusCode": 400,
+    "scenario": "Invalid username supplied"
+  },
+  {
+    "username": "user_not_found_example",
+    "statusCode": 404,
+    "scenario": "User not found"
+  },
+  {
+    "username": "janedoe456",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "username": "invalid username!!",
+    "statusCode": 400,
+    "scenario": "Invalid username supplied"
+  },
+  {
+    "username": "missing_user_test",
+    "statusCode": 404,
+    "scenario": "User not found"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "username": "johndoe",
+    "id_long": 1234567890123456800,
+    "firstName_string": "John",
+    "lastName_string": "Doe",
+    "email_string": "johndoe@example.com",
+    "password_string": "securePassword123",
+    "phone_string": "123-456-7890",
+    "userStatus_integer": 1,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "username": "invalid_user",
+    "id_long": -1,
+    "firstName_string": "",
+    "lastName_string": "",
+    "email_string": "not-an-email",
+    "password_string": "short",
+    "phone_string": "invalid_phone",
+    "userStatus_integer": -999,
+    "statusCode": 400,
+    "scenario": "Invalid user supplied"
+  },
+  {
+    "username": "alice_smith",
+    "id_long": 9876543219876542000,
+    "firstName_string": "Alice",
+    "lastName_string": "Smith",
+    "email_string": "alice.smith@example.com",
+    "password_string": "aliceSecureP@ss999",
+    "phone_string": "789-456-1230",
+    "userStatus_integer": 1,
+    "statusCode": 200,
+    "scenario": "Success"
+  },
+  {
+    "username": "ghost_user",
+    "id_long": 0,
+    "firstName_string": "Unknown",
+    "lastName_string": "Unknown",
+    "email_string": "ghost@example.com",
+    "password_string": "ghostPass123",
+    "phone_string": "000-000-0000",
+    "userStatus_integer": 0,
+    "statusCode": 404,
+    "scenario": "User not found"
+  },
+  {
+    "username": "test_user_123",
+    "id_long": 112233445566778900,
+    "firstName_string": "Test",
+    "lastName_string": "User",
+    "email_string": "test.user@example.com",
+    "password_string": "TestPassword!234",
+    "phone_string": "555-666-7777",
+    "userStatus_integer": 0,
+    "statusCode": 200,
+    "scenario": "Success"
+  }
+]

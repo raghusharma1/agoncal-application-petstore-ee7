@@ -1,0 +1,32 @@
+[
+  {
+    "petId": 123456,
+    "additionalMetadata": "Healthy and vaccinated",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "petId": 789101,
+    "additionalMetadata": "Needs grooming",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "petId": -1,
+    "additionalMetadata": "",
+    "statusCode": 400,
+    "scenario": "Invalid petId"
+  },
+  {
+    "petId": 0,
+    "additionalMetadata": "123InvalidMetadata",
+    "statusCode": 404,
+    "scenario": "Pet not found"
+  },
+  {
+    "petId": 987654321,
+    "additionalMetadata": "Lost pet",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]
